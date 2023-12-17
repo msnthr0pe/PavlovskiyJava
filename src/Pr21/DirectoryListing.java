@@ -6,7 +6,7 @@ import java.util.List;
 
 public class DirectoryListing {
     public static void main(String[] args) {
-        String directoryPath = "Catalog path";
+        String directoryPath = "C:\\Users\\Vasyp\\IdeaProjects\\PavlovskiyJava";
 
         List<String> fileList = getFileList(directoryPath);
         printFirstFiveElements(fileList);
