@@ -5,8 +5,8 @@ public class MVCEmployee {
         Employee model = new Employee();
         EmployeeView view = new EmployeeView();
         EmployeeController controller = new EmployeeController(model, view);
-        controller.SetName("Иван");
-        controller.SetSalary(60000);
+        controller.SetName("Mikhail");
+        controller.SetSalary(77777);
         view.GUI(controller);
     }
 
