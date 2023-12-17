@@ -42,16 +42,16 @@ public class Calculator {
     }
 
     public static void main(String[] args) {
-        double result = Calculator.sum(2.5, 3.0);
+        double result = Calculator.sum(7.0, 7.1);
         System.out.println("Sum: " + result);
 
-        result = Calculator.multiply(4.2, 2.0);
+        result = Calculator.multiply(2.0, 1.5);
         System.out.println("Multiplication: " + result);
 
-        result = Calculator.divide(10, 3);
+        result = Calculator.divide(6, 4);
         System.out.println("Division: " + result);
 
-        result = Calculator.subtraction(5.0, 2.5);
+        result = Calculator.subtraction(8.5, 2.0);
         System.out.println("Subtraction: " + result);
     }
 }
