@@ -22,7 +22,7 @@ public class NewCalculator extends JFrame {
         int x = (screenSize.width - getWidth()) / 2;
         int y = (screenSize.height - getHeight()) / 2;
         frame.setLocation(x-200, y-200);
-        frame.setSize(300,300);
+        frame.setSize(500,500);
         frame.setLayout(new BorderLayout());
         JPanel panel = new JPanel(new GridLayout(4, 4));
         frame.add(panel, BorderLayout.CENTER);
