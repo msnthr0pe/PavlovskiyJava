@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Split {
     public static void main(String[] args) {
-        String input = "Hello, World! How are you today?";
+        String input = "Just wanted to say hello!";
 
         // Разбиение строки по пробелам
         String[] words = input.split("\\s+");
