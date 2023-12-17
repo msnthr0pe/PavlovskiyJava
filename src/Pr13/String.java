@@ -23,7 +23,7 @@ public class String {
 
         System.out.println("Position of the string 'Java' " + str.indexOf("Java"));
 
-        System.out.println(str.replaceAll("a", "e"));
+        System.out.println(str.replaceAll("a", "o"));
         System.out.println(str.toUpperCase());
         System.out.println(str.toLowerCase());
         System.out.println(str.substring(0, str.indexOf("Java")));
