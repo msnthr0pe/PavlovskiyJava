@@ -218,10 +218,6 @@ class ExpressionParser {
 
 public class NewMain {
     public static void main(String[] args) {
-        if (args.length == 0) {
-            System.out.println("No args");
-            return;
-        }
         final int x = 0;
         ExpressionParser parser = new ExpressionParser("1000000*x*x*x*x*x/(x-1)");
         TripleExpression expression = parser.parse();
