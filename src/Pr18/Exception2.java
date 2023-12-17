@@ -16,7 +16,7 @@ public class Exception2 {
         } catch (NumberFormatException e){
             System.out.println("Wrong format");
         } finally {
-            System.out.println("Finally");
+            System.out.println("Finally has been triggered");
         }
 
     }
